@@ -35,4 +35,4 @@ Dan untuk mencari desa/kelurahan yang berada di wilayah Gayungan kota Surabaya, 
 
     SELECT * FROM `kodewil` WHERE kode_wil LIKE "35.78.22.%";
 
-Selain itu juga ditambahkan kode_wil baru berupa "00.00.00.0000" sebagai kode versi data kepmendagri nomor berapa yang digunakan dan versi _update_-nya (jika ditemui adanya kesalahan dalam pemindahan data dari pdf ke sql).
+Selain itu juga ditambahkan kode_wil baru berupa "00.00.00.0000" sebagai kode versi data kepmendagri nomor berapa yang digunakan dan versi _update_-nya (jika ditemui adanya kesalahan dalam pemindahan data dari pdf ke sql). Sehingga untuk mengetahui versi kepmendagri yang digunakan dan/atau update data terkahir yang dilakukan, dapat dilakukan query:
