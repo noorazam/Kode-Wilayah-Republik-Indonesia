@@ -34,3 +34,5 @@ Untuk mencari kecamatan yang berada di wilayah kota Surabaya, maka dapat dilakuk
 Dan untuk mencari desa/kelurahan yang berada di wilayah Gayungan kota Surabaya, maka dapat dilakukan query:
 
     SELECT * FROM `kodewil` WHERE kode_wil LIKE "35.78.22.%";
+
+Selain itu juga ditambahkan kode_wil baru berupa "00.00.00.0000" sebagai kode versi data kepmendagri nomor berapa yang digunakan dan versi _update_-nya (jika ditemui adanya kesalahan dalam pemindahan data dari pdf ke sql).
