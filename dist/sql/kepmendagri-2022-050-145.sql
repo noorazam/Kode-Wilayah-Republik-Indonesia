@@ -28,7 +28,7 @@ CREATE TABLE `kodewil` (
   `nama_wil` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `kode_wil_UNIQUE` (`kode_wil`)
-) ENGINE=InnoDB AUTO_INCREMENT=90980 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
